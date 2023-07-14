@@ -5,13 +5,13 @@ import Hobbies from "./Hobbies";
 const LeftSide = () => {
   return (
     <div>
-      <div className=" sm:h-1/3 p-2 container ">
+      <div className="p-2">
         <Card />
       </div>
-      <div className=" sm:h-1/3 p-2 container">
+      <div className=" p-2">
         <Experience />
       </div>
-      <div className=" h-1/3 p-2 container">
+      <div className="p-2">
         <Hobbies />
       </div>
     </div>

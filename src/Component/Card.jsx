@@ -1,6 +1,6 @@
 const Card = () => {
   return (
-    <div className="bg-white  w-full flex flex-col text-left overflow-hidden justify-center shadow-lg items-center rounded-lg break-word">
+    <div className="bg-white w-full  text-left overflow-hidden shadow-lg rounded-lg">
       <div className="mb-6">
         <div>
           <figure>
@@ -10,10 +10,10 @@ const Card = () => {
               className="rounded-xl p-6"
             />
             <figcaption>
-              <h2 className="title-font font-bold text-gray-700 mt-2 sm:text-xl px-4 ">
+              <h2 className="font-bold text-gray-700 mt-2 sm:text-xl px-4 ">
                 Billy Pearson
               </h2>
-              <p className="text-sm text-gray-500 pb-4 sm: px-4">
+              <p className="text-sm text-gray-500 pb-4 sm:px-4">
                 Front-end developer
               </p>
             </figcaption>

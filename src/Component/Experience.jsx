@@ -2,7 +2,7 @@ import experiences from "../../public/experiences.json";
 
 const Experience = () => {
   return (
-    <div className="bg-white overflow-hidden justify-center shadow-lg items-center rounded-lg break-word w-full h-1/3 sm: p-2">
+    <div className="bg-white shadow-lg rounded-lg w-full p-2">
       <h3 className="text-gray-600 text-lg font-bold sm:text-sm">Experience</h3>
       <div className="my-2">
         {experiences.map((experience) => (
@@ -15,10 +15,7 @@ const Experience = () => {
               <h6 className="font-semibold text-muted pb-2">
                 {experience.title}
               </h6>
-              <p className="text-sm text-gray-500 ">
-                {" "}
-                {experience.description}
-              </p>
+              <p className="text-sm text-gray-500 ">{experience.description}</p>
             </div>
           </div>
         ))}
