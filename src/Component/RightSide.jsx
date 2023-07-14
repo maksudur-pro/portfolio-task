@@ -1,4 +1,5 @@
 import Design from "./Design";
+import Project from "./Project";
 import Skills from "./Skills";
 
 const RightSide = () => {
@@ -13,7 +14,9 @@ const RightSide = () => {
         </div>
       </div>
 
-      <div className="p-2 container">{/* <Project  /> */}</div>
+      <div className="p-2 container">
+        <Project />
+      </div>
       <div className="p-2 container">{/* <Blog  /> */}</div>
     </div>
   );
