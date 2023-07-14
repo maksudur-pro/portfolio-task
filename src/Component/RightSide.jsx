@@ -5,7 +5,7 @@ import Skills from "./Skills";
 
 const RightSide = () => {
   return (
-    <div className="">
+    <>
       <div className="lg:flex md:flex">
         <div className=" p-2">
           <Skills />
@@ -21,7 +21,7 @@ const RightSide = () => {
       <div className="p-2">
         <Blog />
       </div>
-    </div>
+    </>
   );
 };
 

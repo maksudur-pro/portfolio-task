@@ -4,7 +4,7 @@ import Hobbies from "./Hobbies";
 
 const LeftSide = () => {
   return (
-    <div>
+    <>
       <div className="p-2">
         <Card />
       </div>
@@ -14,7 +14,7 @@ const LeftSide = () => {
       <div className="p-2">
         <Hobbies />
       </div>
-    </div>
+    </>
   );
 };
 
