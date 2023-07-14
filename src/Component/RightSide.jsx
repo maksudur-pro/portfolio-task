@@ -6,19 +6,19 @@ import Skills from "./Skills";
 const RightSide = () => {
   return (
     <div className="">
-      <div className="flex">
-        <div className="h-1/4 p-2">
+      <div className="lg:flex md:flex">
+        <div className=" p-2">
           <Skills />
         </div>
-        <div className="h-1/4 p-2">
+        <div className=" p-2">
           <Design />
         </div>
       </div>
 
-      <div className="p-2 container">
+      <div className="p-2">
         <Project />
       </div>
-      <div className="p-2 container">
+      <div className="p-2">
         <Blog />
       </div>
     </div>

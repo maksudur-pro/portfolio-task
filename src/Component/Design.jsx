@@ -1,6 +1,6 @@
 const Design = () => {
   return (
-    <div className="bg-white px-4 py-4 w-[415px] h-[157px] justify-center overflow-hidden items-center shadow-lg rounded-lg">
+    <div className="bg-white px-4 py-4 lg:w-[415px] lg:h-[157px] shadow-lg rounded-lg">
       <h3 className="font-bold text-gray-700 text-base uppercase mt-2 text-left ">
         Design
       </h3>

@@ -12,15 +12,11 @@ const Experience = () => {
             </div>
             <div>
               <p>{experience.date}</p>
-              <h6 className="font-semibold text-muted pb-2">
-                {experience.title}
-              </h6>
+              <h6 className="font-semibold pb-2">{experience.title}</h6>
               <p className="text-sm text-gray-500 ">{experience.description}</p>
             </div>
           </div>
         ))}
-        {/* Lenght of Experience:
-        {experiences.length} */}
       </div>
     </div>
   );

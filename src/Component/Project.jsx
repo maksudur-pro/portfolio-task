@@ -3,7 +3,7 @@ import projects from "../../public/projects.json";
 const Project = () => {
   return (
     <div>
-      <div className="container  text-left  ">
+      <div className="text-left">
         <h5 className="bg-white p-4 mb-4 rounded-lg shadow-lg">
           Projects ({projects.length})
         </h5>
@@ -11,16 +11,16 @@ const Project = () => {
         <div className="container">
           {projects.map((project) => (
             <div
-              className="bg-white p-4 m-4   shadow-lg rounded-lg flex break-word"
+              className="bg-white p-4 m-4 shadow-lg rounded-lg lg:flex md:flex"
               key={project.title}>
-              <div className="w-1/4 mr-4">
+              <div className="lg:w-1/4 mr-4">
                 <img
                   src={project.image}
                   alt="alt"
-                  className="rounded-lg w-full justify-left items-left"
+                  className="rounded-lg w-full"
                 />
               </div>
-              <div className="w-1/2 ml-2">
+              <div className="lg:w-1/2 md:w-1/2 ml-2">
                 <small className="text-xs text-gray-400">
                   {project.language}
                 </small>

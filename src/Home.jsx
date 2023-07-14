@@ -3,7 +3,7 @@ import RightSide from "./Component/RightSide";
 
 const Home = () => {
   return (
-    <div className=" flex sm:text-xs">
+    <div className="p-4 lg:flex">
       <div>
         <LeftSide />
       </div>

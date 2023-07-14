@@ -2,7 +2,7 @@ import skills from "../../public/skills.json";
 
 const Skills = () => {
   return (
-    <div className="bg-white px-4 py-4 w-[415px] h-[303px] justify-center overflow-hidden items-center shadow-lg rounded-lg">
+    <div className="bg-white px-4 py-4 lg:w-[415px] lg:h-[303px] shadow-lg rounded-lg">
       <h3 className="font-bold text-gray-700 text-base uppercase mt-2 text-left ">
         Front end
       </h3>
@@ -14,7 +14,7 @@ const Skills = () => {
             </div>
             <div className="w-1/2 ml-8 justify-start items-start">
               <progress
-                className="progress progress-info rounded-xl w-56"
+                className="progress progress-info rounded-xl lg:w-56"
                 value={skill.progress}
                 max="100"
               />
