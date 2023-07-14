@@ -7,7 +7,7 @@ const Card = () => {
             <img
               src="https://i.ibb.co/HFDZYw3/979e69ae430b2e62edb3533925323ba0.png"
               alt="alt"
-              className="rounded-lg  sm:mx-0 sm:shrink-0 p-4"
+              className="rounded-xl p-6"
             />
             <figcaption>
               <h2 className="title-font font-bold text-gray-700 mt-2 sm:text-xl px-4 ">
