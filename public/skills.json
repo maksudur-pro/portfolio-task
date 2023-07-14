@@ -1,0 +1,26 @@
+[
+  {
+    "name": "React",
+    "progress": "70"
+  },
+  {
+    "name": "Javascript",
+    "progress": "70"
+  },
+  {
+    "name": "CSS",
+    "progress": "40"
+  },
+  {
+    "name": "Vue",
+    "progress": "60"
+  },
+  {
+    "name": "Redux",
+    "progress": "70"
+  },
+  {
+    "name": "React Native",
+    "progress": "30"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "date": "Feb 2017 - Current",
+    "img": "https://i.ibb.co/FbfLsP0/364c0a3410cba48399fd137e4ca19ccb.png",
+    "description": "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.",
+    "title": "Front-end developer"
+  },
+  {
+    "id": 2,
+    "date": "Aug 2016 - Feb 2018",
+    "img": "https://i.ibb.co/br5Gm2h/4aa2b46ad286056145e65599afc858f0.png",
+    "description": "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.",
+    "title": "Full-stack developer"
+  },
+  {
+    "id": 3,
+    "date": "Jun 2015 - Aug 2016",
+    "img": "https://i.ibb.co/Ldwd9Jz/9ef390d12f97e3671593c77ac9f17d27.png",
+    "description": "Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.",
+    "title": "Junior front-end developer"
+  }
+]
