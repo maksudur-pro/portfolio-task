@@ -8,7 +8,7 @@ const Experience = () => {
         {experiences.map((experience) => (
           <div className="flex gap-3 items-center p-3" key={experience.id}>
             <div>
-              <img src={experience.img} className="h-20 w-20" alt="" />
+              <img src={experience.img} className=" w-36" alt="" />
             </div>
             <div>
               <p>{experience.date}</p>
