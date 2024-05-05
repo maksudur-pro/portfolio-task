@@ -16,7 +16,7 @@ const Project = () => {
               <img
                 src={project.image}
                 alt="alt"
-                className="rounded-lg w-[282px] h-[230px] object-cover object-top  hover:object-bottom duration-[4000ms] cursor-pointer"
+                className="rounded-lg w-[282px] h-[300px] object-cover object-top  hover:object-bottom duration-[4000ms] cursor-pointer"
               />
             </div>
             <div className="lg:w-1/2 md:w-1/2 ml-2">
@@ -31,12 +31,16 @@ const Project = () => {
               </p>
 
               <div className=" flex gap-4">
-                <button className=" bg-[#2F80ED] w-[136px] h-[46px] text-white text-lg rounded-xl">
+                <a
+                  href={project.demo}
+                  className=" bg-[#2F80ED] flex items-center justify-center  w-[136px] h-[46px] text-white text-lg rounded-xl">
                   Demo
-                </button>
-                <button className=" bg-white text-blue-500 text-lg rounded-xl w-[136px] h-[46px] border-2 border-blue-500">
+                </a>
+                <a
+                  href={project.code}
+                  className=" bg-white flex items-center justify-center text-blue-500 text-lg rounded-xl w-[136px] h-[46px] border-2 border-blue-500">
                   Code
-                </button>
+                </a>
               </div>
             </div>
           </div>
