@@ -16,7 +16,7 @@ const Project = () => {
               <img
                 src={project.image}
                 alt="alt"
-                className="rounded-lg w-full h-full"
+                className="rounded-lg w-[282px] h-[230px] object-cover object-top  hover:object-bottom duration-[4000ms] cursor-pointer"
               />
             </div>
             <div className="lg:w-1/2 md:w-1/2 ml-2">

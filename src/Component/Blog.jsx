@@ -2,7 +2,7 @@ const Blog = () => {
   return (
     <div className="text-left font-Montserrat">
       <h5 className="bg-white font-medium text-lg text-[#4F4F4F]  p-4 mb-4 rounded-lg shadow-lg">
-        Blog 1
+        Blog (1)
       </h5>
       <div className="bg-white font-Montserrat p-4 m-4 shadow-lg rounded-lg lg:flex md:flex gap-4">
         <div className="lg:w-1/2 md:w-1/2 ml-2">

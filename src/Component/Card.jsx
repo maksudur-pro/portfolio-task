@@ -8,7 +8,7 @@ const Card = () => {
         <div>
           <figure>
             <img
-              src="https://i.ibb.co/HFDZYw3/979e69ae430b2e62edb3533925323ba0.png"
+              src="/src/assets/joy.jpg"
               alt="alt"
               className="rounded-[30px] p-6"
             />
@@ -27,7 +27,7 @@ const Card = () => {
               maksudurjoy7@gmail.com
             </a>
             <a className="text-lg text-[#4F4F4F] font-medium items-center flex gap-2">
-              <FaPhoneAlt /> +880 1721 308 663
+              <FaPhoneAlt /> +880 1721 308663
             </a>
           </div>
         </div>

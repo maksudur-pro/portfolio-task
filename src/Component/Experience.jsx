@@ -6,7 +6,7 @@ const Experience = () => {
       <h3 className="text-[#4F4F4F] text-2xl font-medium">Experience</h3>
       <div className="my-2">
         {experiences.map((experience) => (
-          <div className="flex gap-3 items-center p-3" key={experience.id}>
+          <div className="flex gap-4 items-center p-3" key={experience.id}>
             <div>
               <img src={experience.img} className=" w-[49px]" alt="" />
             </div>

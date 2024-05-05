@@ -1,20 +1,17 @@
 [
   {
-    "image": "https://i.ibb.co/b2pVhNJ/51c6775fa270938a872eb94817ec2bdc-1.png",
-    "title": "Recipe page",
-    "language": "#HTML #CSS #responsive",
+    "image": "/src/assets/musicland.png",
+    "title": "MusicLand",
     "description": "In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. The blog entails the step by step processs involving in making a cheesecake."
   },
   {
-    "image": "https://i.ibb.co/VWQBhNp/1de8f9ccea87f61adf285bb800e0e921.png",
-    "title": "My Gallery",
-    "language": "#HTML #CSS #responsive",
+    "image": "/src/assets/toypal.png",
+    "title": "ToyPal",
     "description": "In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. The blog entails the step by step processs involving in making a cheesecake."
   },
   {
-    "image": "https://i.ibb.co/4ZYkqXz/260ae601a0fbf4bacce17735a1f881e0.png",
-    "title": "Checkout",
-    "language": "#HTML #CSS #responsive",
+    "image": "/src/assets/spicyclub.png",
+    "title": "SpicyClub",
     "description": "In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io. The blog entails the step by step processs involving in making a cheesecake."
   }
 ]
