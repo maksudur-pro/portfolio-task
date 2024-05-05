@@ -1,6 +1,6 @@
 import LeftSide from "./Component/LeftSide";
 import RightSide from "./Component/RightSide";
-import Footer from "./Component/footer";
+// import Footer from "./Component/footer";
 
 const Home = () => {
   return (
@@ -13,7 +13,7 @@ const Home = () => {
           <RightSide />
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

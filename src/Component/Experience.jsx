@@ -8,16 +8,16 @@ const Experience = () => {
         {experiences.map((experience) => (
           <div className="flex gap-3 items-center p-3" key={experience.id}>
             <div>
-              <img src={experience.img} className=" w-36" alt="" />
+              <img src={experience.img} className=" w-[49px]" alt="" />
             </div>
             <div>
-              <p className="text-[#828282] font-medium">{experience.date}</p>
-              <h6 className="font-semibold text-[#333] text-base pb-2">
+              <h6 className="font-semibold text-[#333] text-base ">
                 {experience.title}
               </h6>
               <p className="text-base font-medium text-[#828282] ">
                 {experience.description}
               </p>
+              <p className="text-[#828282] font-medium">{experience.date}</p>
             </div>
           </div>
         ))}

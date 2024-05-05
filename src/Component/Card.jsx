@@ -14,20 +14,20 @@ const Card = () => {
             />
             <figcaption className="p-4">
               <h2 className="font-semibold text-[#4F4F4F] text-2xl mt-2 sm:text-xl">
-                Billy Pearson
+                Maksudur Rahman Joy
               </h2>
               <p className="text-lg font-medium text-[#828282]">
-                Front-end developer
+                Mern Stack Developer
               </p>
             </figcaption>
           </figure>
           <div className="p-4">
             <a className=" text-lg flex gap-2  font-medium items-center text-[#4F4F4F]">
               <MdEmail />
-              billy@example.com
+              maksudurjoy7@gmail.com
             </a>
             <a className="text-lg text-[#4F4F4F] font-medium items-center flex gap-2">
-              <FaPhoneAlt /> (+603) 546 624 342
+              <FaPhoneAlt /> +880 1721 308 663
             </a>
           </div>
         </div>
