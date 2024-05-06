@@ -20,7 +20,6 @@ import {
   SiNetlify,
   SiVercel,
   SiAxios,
-  SiDaisyui,
 } from "react-icons/si";
 import { TbBrandJavascript } from "react-icons/tb";
 
