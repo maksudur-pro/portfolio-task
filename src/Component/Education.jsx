@@ -1,10 +1,12 @@
+import nu from "../assets/nu.png";
+
 const Education = () => {
   return (
     <div className="bg-white shadow-lg rounded-lg w-full p-2 h-1/3 font-Montserrat my-2">
       <h3 className="text-[#4F4F4F] text-2xl font-medium">Education</h3>
       <div className="flex gap-4 items-center p-3 my-2">
         <div>
-          <img src="/src/assets/nu.png" className=" w-[49px]" alt="" />
+          <img src={nu} className=" w-[49px]" alt="" />
         </div>
         <div>
           <h6 className="font-semibold text-[#333] text-base ">

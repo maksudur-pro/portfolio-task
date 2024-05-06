@@ -1,5 +1,6 @@
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import joy from "../assets/joy.jpg";
 
 const Card = () => {
   return (
@@ -7,11 +8,7 @@ const Card = () => {
       <div className="mb-6">
         <div>
           <figure>
-            <img
-              src="/src/assets/joy.jpg"
-              alt="alt"
-              className="rounded-[30px] p-6"
-            />
+            <img src={joy} alt="alt" className="rounded-[30px] p-6" />
             <figcaption className="p-4">
               <h2 className="font-semibold text-[#4F4F4F] text-2xl mt-2 sm:text-xl">
                 Maksudur Rahman Joy

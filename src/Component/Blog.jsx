@@ -1,3 +1,5 @@
+import blog from "../assets/image.png";
+
 const Blog = () => {
   return (
     <div className="text-left font-Montserrat">
@@ -24,11 +26,7 @@ const Blog = () => {
           </a>
         </div>
         <div className="lg:w-1/2 md:w-1/2 mr-4">
-          <img
-            src="/src/assets/image.png"
-            alt="alt"
-            className="rounded-lg w-full h-full"
-          />
+          <img src={blog} alt="alt" className="rounded-lg w-full h-full" />
         </div>
       </div>
     </div>

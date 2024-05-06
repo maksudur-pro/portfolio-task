@@ -9,7 +9,9 @@ import {
   FaVuejs,
 } from "react-icons/fa";
 import { TbBrandVscode } from "react-icons/tb";
-
+import jwt from "../assets/jwt.svg";
+import TanStack from "../assets/TanStack.png";
+import daisyui from "../assets/daisyui.png";
 import {
   SiTailwindcss,
   SiReactrouter,
@@ -77,7 +79,7 @@ const Skills = () => {
           </div>
           <div className="flex gap-1 items-center">
             <div>
-              <img src="/src/assets/daisyui.png" className="w-8 h-8 " alt="" />
+              <img src={daisyui} className="w-8 h-8 " alt="" />
             </div>
 
             <h1 className="text-[#4F4F4F] font-medium">DaisyUI</h1>
@@ -134,22 +136,14 @@ const Skills = () => {
           </div>
           <div className="flex gap-1 items-center">
             <div className="rounded-full">
-              <img
-                src="/src/assets/jwt.svg"
-                className="w-8 h-8  text-black"
-                alt=""
-              />
+              <img src={jwt} className="w-8 h-8  text-black" alt="" />
             </div>
 
             <h1 className="text-[#4F4F4F] font-medium">JWT</h1>
           </div>
           <div className="flex gap-1 items-center">
             <div className="rounded-full">
-              <img
-                src="/src/assets/TanStack.png"
-                className="w-8 h-8  text-black"
-                alt=""
-              />
+              <img src={TanStack} className="w-8 h-8  text-black" alt="" />
             </div>
 
             <h1 className="text-[#4F4F4F] font-medium">TanStack Query</h1>
