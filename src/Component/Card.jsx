@@ -32,9 +32,8 @@ const Card = () => {
           </div>
         </div>
         <p className="text-lg font-medium text-[#828282] p-4">
-          Self-motivated developer, who is <br /> willing to learn and create{" "}
-          <br />
-          outstanding UI applications.
+          I&apos;m a driven developer passionate about creating exceptional UI
+          applications through continuous learning and innovation.
         </p>
       </div>
     </div>
