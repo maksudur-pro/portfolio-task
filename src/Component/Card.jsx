@@ -1,4 +1,4 @@
-import { FaPhoneAlt } from "react-icons/fa";
+import { FaPhoneAlt, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import joy from "../assets/joy.jpg";
 
@@ -19,12 +19,21 @@ const Card = () => {
             </figcaption>
           </figure>
           <div className="p-4">
-            <a className=" text-lg flex gap-2  font-medium items-center text-[#4F4F4F]">
+            <a
+              href="mailto:maksudurjoy7@gmail.com"
+              className=" text-lg flex gap-2  font-medium items-center text-blue-800">
               <MdEmail />
               maksudurjoy7@gmail.com
             </a>
-            <a className="text-lg text-[#4F4F4F] font-medium items-center flex gap-2">
+            <a
+              href="tel:+8801721308663"
+              className="text-lg text-blue-800 font-medium items-center flex gap-2">
               <FaPhoneAlt /> +880 1721 308663
+            </a>
+            <a
+              href="https://github.com/maksudur-pro"
+              className="text-lg text-blue-800 font-medium items-center flex gap-2">
+              <FaGithub /> maksudur-pro
             </a>
           </div>
         </div>
