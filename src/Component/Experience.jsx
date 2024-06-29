@@ -17,7 +17,7 @@ const Experience = () => {
             <p className="text-base font-medium text-[#828282] ">
               Front-end developer
             </p>
-            <p className="text-[#828282] font-medium">July 2023 - Current</p>
+            <p className="text-[#828282] font-medium">July 2023 - Jun 2024</p>
           </div>
         </div>
         <div className="flex gap-4 items-center p-3">
